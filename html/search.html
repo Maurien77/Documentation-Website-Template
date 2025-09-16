@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Godocs Bootstrap</title>
+    <!-- --------------------------css file--------------------- -->
+    <link rel="stylesheet" href="../style.css" />
+    <!-- -------------BOOTSTRAP CSS---------------- -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-2 fixed-top bg-white shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="./home.html">
+          <i class="bi bi-journal-text text-danger me-1 fs-2"></i>GoDocs
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./inner.html">Inner Page</a>
+            </li>
+          </ul>
+
+          <form class="d-flex me-3" role="search">
+            <input
+              class="form-control border-0 shadow-sm py-2"
+              type="search"
+              placeholder="Search here ..."
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">
+              <i class="bi bi-search text-danger"></i>
+            </button>
+          </form>
+
+          <div class="my-3" >
+            <a
+              href="./changelog.html" 
+              class="btn btn-outline-danger me-2 px-lg-4 fw-medium"
+              type="button"
+            >
+              Changelog
+            </a>
+            <a href="./contact.html" class="btn btn-danger px-lg-4 fw-medium" type="button">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------------search section------------------------------ -->
+    <section style="padding-top: 10rem">
+      <div class="container pb-5">
+        <div class="mx-auto w-75">
+        <h2
+          class="mb-5 pb-4 fw-bold mt-2"
+          style="font-size: 3.5rem;"
+        >
+          Search result for <span class="text-danger">install</span>
+        </h2>
+        </div>
+        <div class="bg-white shadow p-5 rounded-4 w-75 mx-auto text-center">
+          <img
+            src="../images/no-search-found.png"
+            alt="no search found"
+            class="img-fluid mt-5"
+          />
+          <p class="pb-4 fw-bold mt-2" style="font-size: 3.5rem">
+            No search found
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------footer--------------------------- -->
+    <footer class="mt-5 pt-5">
+      <div class="container">
+        <div
+          class="footer-box d-flex justify-content-between align-items-center mb-5"
+        >
+          <div class="footer-links d-flex">
+            <a class="nav-link me-4 text-dark" href="./changelog.html">Changelog</a>
+            <a class="nav-link me-4 text-dark" href="./contact.html">Contact</a>
+            <a class="nav-link text-dark" href="./search.html">Search</a>
+          </div>
+          <div class="midTitle">
+            <a class="navbar-brand fw-bold fs-3" href="#"
+              ><i class="bi bi-journal-text text-danger me-1 fs-2"></i>GoDocs</a
+            >
+          </div>
+          <div class="social-links">
+            <a href="#"
+              ><i
+                class="bi bi-facebook bg-danger text-white fs-4 px-2 py-1 rounded-2 mx-1"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="bi bi-twitter bg-danger text-white fs-4 px-2 py-1 rounded-2 mx-1"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="bi bi-github bg-danger text-white fs-4 px-2 py-1 rounded-2 mx-1"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="bi bi-linkedin bg-danger text-white fs-4 px-2 py-1 rounded-2 mx-1"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="border-top">
+          <p
+            class="text-center my-4 text-body-tertiary"
+            style="font-size: 0.8rem"
+          >
+            Copyright &copy; 2020 a hugo theme by themefisher
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../main.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

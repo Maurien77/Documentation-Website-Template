@@ -1,0 +1,23 @@
+ul a:hover,
+.footer-links a:hover{
+    color: #BB2D3B !important; 
+}
+ul.custom-list li::marker {
+  color: #BB2D3B; 
+  font-size: 1.2em;
+}
+@media(max-width:1050px){
+    .footer-box{
+        flex-direction: column;
+    }
+    .footer-box .footer-links,
+    .footer-box .midTitle,
+    .footer-box .social-links{
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width:650px){
+    h2{
+        font-size: 2.5rem !important;
+    }
+}
